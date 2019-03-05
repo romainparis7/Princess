@@ -1,0 +1,224 @@
+body{
+    
+}
+
+header
+{
+    margin: 0;
+    /*display:flex;*/
+    /*justify-content: space-around;*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('bg.jpg');
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size:40px;
+    font-weight: bold;
+}
+.fa-bars
+{
+    margin:20px;
+    color: white;
+    font-size: 70px;
+}
+.home
+{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+ 
+.hello
+{
+    text-transform: uppercase;  
+    display: flex;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+
+.texthello
+{
+    display: flex;
+    color: white;
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+}
+    /*@keyframes transition 
+    {
+        0% {background:rgba(255,140,0,0.4) no-repeat 5px 10px;}
+        50% {background:rgba(255,140,0,1)  no-repeat 50px 10px;}
+        100% {background:rgba(255,140,0,0.4) no-repeat 5px 10px;}
+    }*/
+
+.george
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+
+}
+ul
+{
+justify-content: space-around;
+color: red;
+font-size:20px;
+}
+
+.aboutme
+{
+  
+}
+
+.progress
+{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bar
+{
+    width: 700px;
+    height: 40px;
+    background-color: #F0F0F0;
+    box-shadow: inset 1px 1px 5px grey;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+
+.web-design
+{
+    width: 96%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.branding
+{
+    width: 80%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.developement
+{
+    width: 90%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.span
+{
+    
+}
+
+/*********************BOUTON SECTION SERVICES*********************/
+.section-services
+{
+
+    background-color: darkgrey;
+}
+
+/****services***/
+.services1
+{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+}
+
+.fasfa-laptop
+{
+
+}
+.round
+{
+    background-color: wheat;
+    border-radius: 50%;
+    padding: 10px;
+    margin:5px;
+     
+}
+.round:hover
+{
+    background-color:greenyellow;
+    transition:background-color 2s ease-in-out;
+}
+.services-div
+{
+    background-color: white;
+    margin:20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services2
+{
+    display: flex;
+    flex-direction: column;
+    padding:5px;
+}
+
+/*************************PORTFOLIO****************************/
+.menu-portfolio
+{
+    color: black;
+    list-style: none;
+    display: flex;
+}
+
+
+.portfolio-div
+{
+    margin: 20px;
+}
+
+/*****************ANIMATION**************/
+
+/******section ABOUT-ME******/
+@media (min-width:1050px)
+{
+.aboutme{   
+    display:flex;
+    flex-direction: row;
+}   
+}
+/******section SERVICES******/
+@media (min-width:1050px)
+{
+.section-services{   
+    display:flex;
+    flex-direction: column;
+}   
+}
